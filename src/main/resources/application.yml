@@ -16,7 +16,7 @@ spring:
   jpa:
     # ??? ?? ??/?? ??: none, validate, update, create, create-drop
     hibernate:
-      ddl-auto: create
+      ddl-auto: none
 
     # SQL ?? ??
     show-sql: true
