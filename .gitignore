@@ -56,3 +56,6 @@ out/
 # === Test/coverage results ===
 test-output/
 coverage/
+
+# 모든 application.yml 무시
+**/application.yml
