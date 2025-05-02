@@ -35,6 +35,9 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
+	// ✅ 테스트 전용 H2 의존성 추가
+	testImplementation 'com.h2database:h2'
+
 	// Hibernate ↔ JCache 브릿지 (버전을 Hibernate Core 버전과 맞추세요)
 	implementation 'org.hibernate:hibernate-jcache:6.6.13.Final'
 	// JCache 표준 API
